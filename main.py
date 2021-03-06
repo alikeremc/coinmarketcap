@@ -7,3 +7,4 @@ api_request = requests.get("https://pro-api.coinmarketcap.com/v1/cryptocurrency/
 result = json.loads(api_request.content)  #çalışınca 200 çıkarsa başarılı anlamında
 
 print(result)
+
